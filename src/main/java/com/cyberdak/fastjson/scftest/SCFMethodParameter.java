@@ -1,7 +1,7 @@
 package com.cyberdak.fastjson.scftest;
 import java.util.List; 
 public class SCFMethodParameter implements Cloneable{ 
-	public Class clazz;
+	public Class<?> clazz;
 	public Object value;
 	public boolean isGenericity = false;
 	public List<Class<?>> clsList; 
@@ -13,8 +13,8 @@ public class SCFMethodParameter implements Cloneable{
 	public Class getClazz() {
 		return clazz;
 	}
-	public void setClazz(Class clazz) { this.clazz = clazz; }
-	public List<?> getClsList() {
+	public void setClazz(Class<?> clazz) { this.clazz = clazz; }
+	public List<Class<?>> getClsList() {
 		return clsList;
 	}
 	public void setClsList(List<Class<?>> clsList) {
