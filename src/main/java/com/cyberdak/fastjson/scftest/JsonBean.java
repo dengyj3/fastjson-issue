@@ -1,11 +1,11 @@
 package com.cyberdak.fastjson.scftest;
 import java.util.List;
 public class JsonBean {
-	private List mList;
-	public List getmList() {
+	private List<SCFMethod> mList;
+	public List<SCFMethod> getmList() {
 		return mList;
 	}
-	public void setmList(List mList) {
+	public void setmList(List<SCFMethod> mList) {
 		this.mList = mList;
 	}
 	@Override
