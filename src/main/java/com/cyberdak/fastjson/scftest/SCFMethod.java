@@ -6,8 +6,8 @@ public String className;
 public String url;
 public String methodName;
 public int parameterSize;
-public List parameters = new LinkedList();
-public Class returnType;	public String getUrl() { return url; } public void setUrl(String url) { this.url = url; } public String getClassName() { return className; } public void setClassName(String className) { this.className = className; } public Class getReturnType() {
+public List<SCFMethodParameter> parameters = new LinkedList<SCFMethodParameter>();
+public Class<?> returnType;	public String getUrl() { return url; } public void setUrl(String url) { this.url = url; } public String getClassName() { return className; } public void setClassName(String className) { this.className = className; } public Class<?> getReturnType() {
 return returnType;
 }
-public void setReturnType(Class returnType) { this.returnType = returnType; } public String getMethodName() { return methodName; } public void setMethodName(String methodName) { this.methodName = methodName; } public int getParameterSize() { return parameterSize; } public void setParameterSize(int parameterSize) { this.parameterSize = parameterSize; } public List getParameters() { return parameters; } public void setParameters(List parameters) { this.parameters = parameters; } }
+public void setReturnType(Class<?> returnType) { this.returnType = returnType; } public String getMethodName() { return methodName; } public void setMethodName(String methodName) { this.methodName = methodName; } public int getParameterSize() { return parameterSize; } public void setParameterSize(int parameterSize) { this.parameterSize = parameterSize; } public List<SCFMethodParameter> getParameters() { return parameters; } public void setParameters(List<SCFMethodParameter> parameters) { this.parameters = parameters; } }
